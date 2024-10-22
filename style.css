@@ -35,7 +35,11 @@ header {
 
 .navIcon {
     width: 40px;
+    cursor: pointer;
+  
 }
+
+
 
 .popup {
     height: 100vh;
