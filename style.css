@@ -48,6 +48,7 @@ header {
     top: 0;
     right: 0;
     display: none;
+    
 }
 
 .popup ul {
@@ -62,6 +63,11 @@ header {
     gap: 1rem;
     padding-top: 2rem;
     text-align: center;
+}
+.popup li a{
+    text-decoration: none;
+    color: white;
+
 }
 
 .closeIcon {
@@ -90,7 +96,7 @@ header {
     font-size: 20px;
     padding-left: 3rem;
     margin-top: 5rem;
-    margin-left: 7rem;
+    /* margin-left: 7rem; */
 }
 
 .intro-text h1 {
@@ -176,9 +182,11 @@ header {
 .service-box p {
     font-size: 0.9em;
     margin-top: 10px;
+    color: white;
 }
 
 .service-box a {
+
     color: #fff;
     text-decoration: underline;
     font-size: 0.9em;
@@ -382,6 +390,64 @@ footer p {
     gap: 1rem;
 }
 
+.Contact-us{
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    line-height: 2rem;
+
+}
+
+h1 {
+    text-align: start;
+    font-size: 40px;
+}
+
+form{
+    margin-top: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input{
+  border: none;              
+  border-bottom: 1px solid #6f6a6afe; 
+  outline: none;            
+  width: 100%;              
+  padding: 5px;              
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px; 
+
+    margin-bottom: 15px;
+  
+ 
+}
+
+textarea {
+    height: 100px;
+}
+
+.Contact-us a{
+    color: #ff7043;
+    text-decoration: none;
+}
+
+
+
+button {
+    background-color: #ff7043; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
 
 
 
@@ -430,7 +496,7 @@ footer p {
         justify-content: center;
         flex-direction: column;
         height: 700px;
-        
+
     }
 
 
@@ -438,7 +504,7 @@ footer p {
     .intro-text {
         padding: 0;
         width: 100%;
-        
+
 
     }
 
@@ -467,13 +533,19 @@ footer p {
     .card-container img {
         width: 100%;
     }
-    
+
 }
-    @media (min-width:941px) {
-    
-        .intro-section img {
-            max-width: 45rem;
-            height: auto;
-    
-        }
+
+@media (min-width:941px) {
+
+    .intro-section img {
+        max-width: 45rem;
+        height: auto;
+
     }
+
+    .intro-text {
+
+        padding-left: 7rem;
+    }
+}
