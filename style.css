@@ -48,7 +48,7 @@ header {
     top: 0;
     right: 0;
     display: none;
-    
+
 }
 
 .popup ul {
@@ -64,7 +64,8 @@ header {
     padding-top: 2rem;
     text-align: center;
 }
-.popup li a{
+
+.popup li a {
     text-decoration: none;
     color: white;
 
@@ -390,7 +391,7 @@ footer p {
     gap: 1rem;
 }
 
-.Contact-us{
+.Contact-us {
     margin: 20px auto;
     padding: 20px;
     width: 500px;
@@ -403,7 +404,7 @@ h1 {
     font-size: 40px;
 }
 
-form{
+form {
     margin-top: 1rem;
 }
 
@@ -412,29 +413,29 @@ label {
     margin-bottom: 5px;
 }
 
-.input{
-  border: none;              
-  border-bottom: 1px solid #6f6a6afe; 
-  outline: none;            
-  width: 100%;              
-  padding: 5px;              
+.input {
+    border: none;
+    border-bottom: 1px solid #6f6a6afe;
+    outline: none;
+    width: 100%;
+    padding: 5px;
 }
 
 
 textarea {
     width: 100%;
-    padding: 10px; 
+    padding: 10px;
 
     margin-bottom: 15px;
-  
- 
+
+
 }
 
 textarea {
     height: 100px;
 }
 
-.Contact-us a{
+.Contact-us a {
     color: #ff7043;
     text-decoration: none;
 }
@@ -442,13 +443,13 @@ textarea {
 
 
 button {
-    background-color: #ff7043; 
+    background-color: #ff7043;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
 
-.End{
+.End {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -462,11 +463,12 @@ button {
 
 }
 
-.End p{
+.End p {
     margin-bottom: 30px;
     color: #fff;
 }
-.End span{
+
+.End span {
     color: #fff;
 }
 
@@ -566,23 +568,26 @@ button {
 
 
 
-    .Contact-us{
+    .Contact-us {
         margin: 0px auto;
         padding: 20px;
         width: 100%;
         line-height: 2rem;
-    
+
     }
 
-    .End{
+    .End {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
+    
 }
-
+.showNav {
+    display: flex;
+}
 
 @media (min-width:941px) {
 
@@ -597,5 +602,5 @@ button {
         padding-left: 7rem;
     }
 
-   
+
 }

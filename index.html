@@ -19,7 +19,7 @@
         <div class="main-container">
             <h1>Logo</h1>
             <nav>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                <svg id="NavIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="navIcon">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -28,11 +28,12 @@
             </nav>
         </div>
 
-        <div class="popup">
-            <p class="closeIcon"> X</p>
+        <div class="popup" id="popUp">
+            <p class="closeIcon" onclick="closeFn()"> X</p>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="#home" onclick="closeFn()" >Home</a></li>
+                <li><a href="#about" onclick="closeFn()">About Us</a></li>
+                
             </ul>
         </div>
     </header>
@@ -406,16 +407,15 @@
                 <p>Sample text. Sample text. Click to select the text box. Click again or double click to start editing
                     the text.</p>
                 <p>
-                    <a href="#" class="template-link">Website Developed by </a> <span class="myName">Sayed Ruzaina </span>
+                    <a href="#" class="template-link">Website Developed by </a> <span class="myName">Sayed Ruzaina
+                    </span>
                     <!-- <a href="#" class="template-link"> Website Builder Software </a> -->
             </div>
             </p>
         </footer>
 
     </main>
-
-    main kr dunga
-    aaram kro
+    <script src="./script.js"></script>
 </body>
 
 </html>
