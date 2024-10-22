@@ -448,7 +448,36 @@ button {
     cursor: pointer;
 }
 
+.End{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.End p{
+    margin-bottom: 30px;
+    color: #fff;
+}
+.End span{
+    color: #fff;
+}
+
+.template-link {
+    color: #ff8080;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.template-link span {
+    color: #ff8080;
+}
 
 
 
@@ -534,6 +563,16 @@ button {
         width: 100%;
     }
 
+
+
+    .Contact-us{
+        margin: 0px auto;
+        padding: 20px;
+        width: 100%;
+        line-height: 2rem;
+    
+    }
+
 }
 
 @media (min-width:941px) {
@@ -547,5 +586,12 @@ button {
     .intro-text {
 
         padding-left: 7rem;
+    }
+
+    .End{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
