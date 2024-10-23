@@ -45,7 +45,7 @@ header {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.733);
+    background-color: #000000bb;
     width: 100%;
     color: white;
     position: absolute;
@@ -101,7 +101,7 @@ header {
     font-size: 20px;
     padding-left: 3rem;
     margin-top: 5rem;
-    /* margin-left: 7rem; */
+    margin-right: 7rem;
 }
 
 .intro-text h1 {
@@ -277,6 +277,11 @@ p {
     font-size: 50px;
 
 
+}
+.TnC{
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 
